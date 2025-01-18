@@ -1,0 +1,58 @@
+
+#navbar{
+
+    display: flex;
+    /* position:sticky; */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+   
+
+    align-items: center;
+    
+    background-color: #222;
+    height: 5rem;
+    width: 97vw;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+
+.nav-items{
+    
+
+margin-left: 3rem;
+
+
+}
+
+.nav-items li  {
+list-style: none;
+
+    padding-right: 30px;
+
+    align-items: center;
+    justify-content: center;
+}
+.nav-items li .button{
+
+    position: absolute;
+    right: 4rem;
+    top: 1.4rem;;
+}
+
+.nav-items li .cart{
+    position: absolute;
+    left: 79rem;
+    top: 1.5rem;
+    font-size: 22px;
+    padding: 8px;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+

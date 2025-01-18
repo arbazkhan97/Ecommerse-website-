@@ -1,0 +1,117 @@
+
+
+.contact-hero-section{
+
+    background-image: url(/contactImages/hero07.jpeg);
+    
+    height: 90vh;
+    margin-top: -90px;
+    /* font-size: 20px; */
+    background-size: cover;
+    cursor: pointer;
+   /* width:99% ; */
+}
+.con-heading{
+    position: relative;
+    top: 18rem;
+    
+    
+}
+.con-dec{
+    position: relative;
+    top: 19rem;
+}
+
+
+.contact-feature{
+
+    
+    
+    flex-wrap: wrap;
+    
+    
+    
+    height: 30vh;
+    width: 90%;
+    margin-left: 5rem;
+   
+    cursor: pointer;
+    
+   
+    
+    
+}
+
+.con-items{
+    margin-left: 2rem;
+    
+    
+    height: 95%;
+    width: 20%;
+    /* background-color: rgba(196, 207, 196, 0.500); */
+    background-color: rgba(240, 228, 228, 0.5);
+    box-shadow: 0 0 15px rgb(144, 139, 139);
+
+}
+
+
+.form-container{
+
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border :1px solid black; */
+}
+
+.form-items{
+    
+
+    height: 95%;
+    width: 50%;
+    /* margin-right: 10px; */
+    
+
+}
+.forms{
+    box-shadow: 0 0 15px rgb(235, 217, 217);
+    /* margin-right: 20px; */
+}
+.forms p{
+
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.forms input,textarea{
+    margin-left: 1rem !important;
+}
+
+.forms .msg{
+    margin-left: 1rem !important;
+}
+
+.map-container{
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+    /* border: 2px solid green; */
+}
+
+.map-box{
+    height: 96%;
+    width: 49%;
+    /* border: 2px solid red; */
+}
+.map-box .contact-dec{
+    font-weight: bold;
+    font-size: 30px;
+}
+.map-box .contact-heading{
+    font-size: 35px;
+}

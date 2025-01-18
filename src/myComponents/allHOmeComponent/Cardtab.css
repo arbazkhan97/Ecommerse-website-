@@ -1,0 +1,13 @@
+
+
+#card-container{
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    /* justify-content:space-between; */
+    justify-content: start;
+    margin-left: 2rem;
+    flex-wrap: wrap;
+
+}

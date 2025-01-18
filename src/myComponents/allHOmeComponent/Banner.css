@@ -1,0 +1,74 @@
+
+.banner-container{
+    height: 53vh;
+    width: 100%;
+    
+    justify-content: space-between;
+    cursor: pointer;
+    
+
+}
+.banner-container .banner1{
+
+    
+    width: 47vw;
+
+    background-image: url(/bannerImages/banner01.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.75s ;
+    
+    
+}
+.banner-container .banner1 .btn1{
+
+    position: relative;
+    top: 11rem;
+    left: 7rem;
+}
+.banner-container .banner1 .btn1:hover{
+    box-shadow: 0 0 12px #646cff;
+}
+
+.banner-container .banner1:hover{
+
+    .btn1{
+        background-color: white;
+        color: black;
+        
+    }
+}
+
+
+.banner-container .banner2{
+
+    
+    width: 47vw;
+
+    background-image: url(/bannerImages/banner02.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+
+}
+.banner-container .banner2 .btn2{
+
+    position: relative;
+    top: 14rem;
+    left: 4rem;
+
+}
+.banner-container .banner2 .btn2:hover{
+    box-shadow: 0 0 12px #646cff;
+    
+}
+
+.banner-container .banner2:hover{
+    
+
+    .btn2{
+        background-color: #fff;
+        color: #000;
+    }
+}

@@ -1,0 +1,43 @@
+
+
+.about-hero-section{
+
+    background-image: url(/aboutUsImages/hero.png);
+    
+    height: 80vh;
+    margin-top: -70px;
+    /* font-size: 20px; */
+    background-size: cover;
+    cursor: pointer;
+   
+}
+
+
+.about-hero2{
+    
+    background-image: url(/aboutUsImages/secondbanner.jpg);
+    
+    height: 60vh;
+    width: 100%;
+    margin-top: -80px;
+   
+    background-size: cover;
+    cursor: pointer;
+   
+    
+    /* border:2px solid red; */
+}
+
+.team-hero-section{
+    background-image: url(/aboutUsImages/team.jpeg);
+    
+    height: 80vh;
+    width: 100%;
+    margin-top: -70px;
+    /* font-size: 20px; */
+    background-size: cover;
+    cursor: pointer;
+   
+
+
+}

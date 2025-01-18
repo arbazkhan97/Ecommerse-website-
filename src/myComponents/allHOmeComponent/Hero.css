@@ -1,0 +1,75 @@
+
+.hero-section{
+
+    background-image: url(/hero.jpeg);
+    /* width: 100vw; */
+    height: 80vh;
+    margin-top: -70px;
+    /* font-size: 20px; */
+    background-size: cover;
+    cursor: pointer;
+   
+}
+
+.heading{
+    position: absolute;
+    top: 12rem;
+   
+    left: 8rem;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-description{
+    position: absolute;
+    top: 19rem;
+    left: 8rem;
+}
+
+.hero-section button{
+
+    position: absolute;
+    top: 25rem;
+    left: 8rem;
+}
+
+.hero-section .btn1{
+
+    position: absolute;
+    top: 25rem;
+    left: 18rem;
+}
+.hero-section .icons{
+
+    position: absolute;
+    top: 30rem;
+    left: 8rem;
+    color: #fff;
+
+}
+
+.hero-section .fa-amazon{
+    position: absolute;
+    top: 33rem;
+    left: 8rem;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 50%;
+
+}
+ .hero-section i img{
+
+    position: absolute;
+    top: 33rem;
+    left: 12rem;
+    height: 44px;
+    width: 44px;
+   
+    padding: 10px;
+    background-color: grey;
+    border-radius: 50%;
+} 
+
+
