@@ -12,8 +12,9 @@ import Home from './myComponents/Home'
 import AboutUs from './myComponents/AboutUs'
 import ContactUs from './myComponents/ContactUs'
 import Blog from './myComponents/Blog'
-import SignUp  from './myComponents/SignUp';
 import Login from './myComponents/Login';
+// import SignUp from './myComponents/SignUp';
+import FormData from './myComponents/FormData';
 
 
 
@@ -29,7 +30,7 @@ function App() {
           <Route exact path='/AboutUs' element={<AboutUs/>} />
           <Route exact path="/ContactUs"element={<ContactUs />}/>
           <Route exact path='/Blog'  element={<Blog/>} />
-          <Route exact path='/SignUp' element={<SignUp/>}  />
+          <Route exact path='/SignUp' element={<FormData/>}  />
           <Route exact path='/Login' element={<Login/>}  />
 
           <Route exact path='*' element={<Navigate to ="/" />} />

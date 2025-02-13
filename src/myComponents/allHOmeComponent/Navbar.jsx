@@ -19,19 +19,14 @@ export default function  Navbar(){
                 <li><a className='text-light' href="/AboutUs">About</a></li>
                 <li><a className='text-light' href="/Blog">Blog</a></li>
                 
-                <li><a className='text-light' href="/Signup">Registration</a></li>
+                <li><a className='text-light' href="/signUp">Registration</a></li>
                 <li><a className='text-light' href="/Login">Login</a></li>
                 <li> <i className= " cart   text-light  fa-solid fa-cart-shopping"><sup className='text-warning' > </sup></i></li>
                 <li> <a   className=' button  btn btn-outline-light' href='/contactUs'>Contact Us  </a>   </li>
 
             </ul>
 
-            {/* <Helmet>
-            <JavaScript src='/script.js' type="javascript"
-                       
-                />
-            </Helmet>
-  */}
+           
         
            
         </div>
